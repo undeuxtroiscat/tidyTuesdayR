@@ -34,4 +34,10 @@ data_p <- data_decade |>
   theme_bw()
 data_p # view plot
 
-ggsave("homeownership_by_race.png", plot = data_p)
+ggsave(
+  filename = "homeownership_by_race.png", 
+  plot = data_p, 
+  width = 734, 
+  height = 354, 
+  units = "px"
+  )
