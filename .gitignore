@@ -1,0 +1,11 @@
+# Ignore RStudio files and project settings
+.Rproj.user/
+*.Rproj
+
+# Ignore R Markdown and caches
+*.Rmd
+*_cache/
+cache/
+
+# Misc
+.DS_Store
